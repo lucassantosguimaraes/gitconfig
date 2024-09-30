@@ -10,5 +10,6 @@
 	c = !git add --all && git commit -m
 	l = !export LC_ALL=C.UTF-8 && git log --pretty=format:'%C(blue)%h%C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
 	ck = !git checkout
+	pof = !git add --all && git commit --amend --no-edit && git push -f
 [credential]
 	helper = manager
